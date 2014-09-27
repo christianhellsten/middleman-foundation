@@ -1,0 +1,5 @@
+#= require 'jquery/dist/jquery'
+#= require 'foundation/js/foundation/foundation.js'
+#= require 'foundation/js/foundation/foundation.orbit.js'
+#= require 'modernizr/modernizr'
+#= require 'app'
