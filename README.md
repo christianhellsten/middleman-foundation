@@ -25,5 +25,5 @@ Start a project:
 Read:
 
 1. [Middleman Getting Started](http://middlemanapp.com/getting-started/welcome/)
-1. [Zurb Foundation Getting Started](http://foundation.zurb.com/docs/)
+1. [Zurb Foundation Documentation](http://foundation.zurb.com/docs/)
 
