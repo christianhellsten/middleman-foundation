@@ -9,6 +9,20 @@ html
     == stylesheet_link_tag "all"
     == javascript_include_tag  "all"
   body class="#{page_classes}"
+    header.row
+      .large-3.columns
+        h1
+          img src="http://placehold.it/400x100&text=Logo"
+      .large-9.columns
+        ul.right.button-group
+          li
+            a.button href="#"  Link 1
+          li
+            a.button href="#"  Link 2
+          li
+            a.button href="#"  Link 3
+          li
+            a.button href="#"  Link 4
     == yield
     footer.row
       .large-12.columns
