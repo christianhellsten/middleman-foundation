@@ -16,7 +16,7 @@ You need:
 
 Start a project:
 
-1. $ `git clone git://github.com/christianhellsten/middleman-foundation.git project`
+1. $ `git clone https://github.com/christianhellsten/middleman-foundation.git project`
 1. $ `cd project`
 1. $ `bower install`
 1. $ `bundle exec middleman`
