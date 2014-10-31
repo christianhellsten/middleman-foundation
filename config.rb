@@ -11,7 +11,6 @@ set :images_dir, 'images'
 activate :directory_indexes
 activate :search_engine_sitemap
 activate :livereload
-activate :imageoptim
 
 helpers do
   def title(value)
@@ -44,4 +43,5 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
+  activate :imageoptim
 end
