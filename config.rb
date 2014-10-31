@@ -11,6 +11,7 @@ set :images_dir, 'images'
 activate :directory_indexes
 activate :search_engine_sitemap
 activate :livereload
+activate :imageoptim
 
 helpers do
   def title(value)
