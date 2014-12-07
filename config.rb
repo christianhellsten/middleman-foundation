@@ -18,6 +18,8 @@ helpers do
   end
 end
 
+bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+
 compass_config do |config|
   config.add_import_path File.join('..', bower_config['directory'], 'foundation', 'scss')
   config.http_path = "/"
@@ -26,8 +28,6 @@ compass_config do |config|
   config.images_dir = "images"
   config.javascripts_dir = "javascripts"
 end
-
-bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
 
 # Add bower's directory to sprockets asset path
 after_configuration do
